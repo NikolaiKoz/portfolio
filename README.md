@@ -89,3 +89,4 @@ Tengo conocimientos de UX/IX, aun asi no soy diseniador grafico, pero generare u
 
 
 
+
