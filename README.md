@@ -82,6 +82,15 @@ Tengo conocimientos de UX/IX, aun asi no soy diseniador grafico, pero generare u
 
 8. Este proyecto quiero realizarlo como full stack MERN por lo tanto la documentacion debe estar dividida, encontratas la documentacion de frontend y backend en sus respectivas carpetas y en las mismas estara detallado el proceso que segui en cada parte.
 
+9. Para los test utilizare jest
+
+### `npm install jest --save-dev`
+
+ * Para ejecutar los test se utiliza el siguiente comando
+
+### `npm test app.test.tsx`
+
+
 
 
 
