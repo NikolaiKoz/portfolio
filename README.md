@@ -90,6 +90,8 @@ Tengo conocimientos de UX/IX, aun asi no soy diseniador grafico, pero generare u
 
 ### `npm test app.test.tsx`
 
+10. Para los estilos utilizare la arquitectura OOCSS y la metodologia BEM para nombrar las clases.
+
 
 
 
