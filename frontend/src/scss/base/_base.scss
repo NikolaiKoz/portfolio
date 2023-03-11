@@ -1,9 +1,9 @@
 * {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  box-sizing: border-box;
-  vertical-align: baseline;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+	vertical-align: baseline;
 }
 
 // Evitamos problemas con imagenes
@@ -13,25 +13,25 @@ picture,
 video,
 iframe,
 figure {
-  max-width: 100%;
-  width: 100%;
-  display: block;
+	max-width: 100%;
+	width: 100%;
+	display: block;
 }
 
 a {
-  display: block;
+	display: block;
 }
 
 p a {
-  display: inline;
+	display: inline;
 }
 
 li {
-  list-style-type: none;
+	list-style-type: none;
 }
 
 html {
-  scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
 h1,
@@ -49,24 +49,24 @@ i,
 b,
 u,
 em {
-  font-size: 1em;
-  font-weight: inherit;
-  font-style: inherit;
-  color: inherit;
-  text-decoration: none;
+	font-size: 1em;
+	font-weight: inherit;
+	font-style: inherit;
+	color: inherit;
+	text-decoration: none;
 }
 
 blockquote::before,
 blockquote::after,
 q::before,
 q::after {
-  content: "";
-  content: none;
+	content: '';
+	content: none;
 }
 
 ::selection {
-  background-color: rebeccapurple;
-  color: aqua;
+	background-color: rebeccapurple;
+	color: aqua;
 }
 
 form,
@@ -75,30 +75,30 @@ textarea,
 select,
 button,
 label {
-  font-family: inherit;
-  font-size: inherit;
-  hyphens: auto;
-  background-color: transparent;
-  display: block;
-  color: inherit;
-  // appearance: none; Opcional
+	font-family: inherit;
+	font-size: inherit;
+	hyphens: auto;
+	background-color: transparent;
+	display: block;
+	color: inherit;
+	// appearance: none; Opcional
 }
 
 table,
 tr,
 td {
-  border-collapse: collapse;
-  border-spacing: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
 svg {
-  width: 100%;
-  display: block;
-  fill: currentColor;
+	width: 100%;
+	display: block;
+	fill: currentColor;
 }
 
 body {
-  min-height: 100vh;
-  font-size: 100%;
-  line-height: 1.6em;
+	min-height: 100vh;
+	font-size: 100%;
+	line-height: 1.6em;
 }
