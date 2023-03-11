@@ -15,7 +15,7 @@ module.exports = {
 		ecmaFeatures: { jsx: true },
 		ecmaVersion: 'latest',
 		sourceType: 'module',
-		project: './tsconfig.json', // Agrega esta línea para especificar el archivo tsconfig.json
+		project: './frontend/tsconfig.json', // Agrega esta línea para especificar el archivo tsconfig.json
 	},
 	plugins: [
 		'react',
