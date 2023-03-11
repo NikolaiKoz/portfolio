@@ -1,25 +1,6 @@
 module.exports = {
-	env: {
-		browser: true,
-		es2021: true,
-	},
-	settings: {
-		react: {
-			version: 'detect',
-		},
-	},
-	extends: ['plugin:react/recommended', 'standard-with-typescript', 'prettier'],
-	overrides: [],
+	extends: ['eslint:recommended', 'plugin:@typescript-eslint/recommended'],
 	parser: '@typescript-eslint/parser',
-	parserOptions: {
-		ecmaFeatures: { jsx: true },
-		ecmaVersion: 'latest',
-		sourceType: 'module',
-		project: './frontend/tsconfig.json', // Agrega esta línea para especificar el archivo tsconfig.json
-	},
-	plugins: [
-		'react',
-		'@typescript-eslint', // Agrega este plugin para habilitar las reglas de TypeScript
-	],
-	rules: {},
-};
+	plugins: ['@typescript-eslint'],
+	root: true,
+  };

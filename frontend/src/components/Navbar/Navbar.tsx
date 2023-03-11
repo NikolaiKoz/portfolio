@@ -1,7 +1,7 @@
 import React from 'react';
 import './Navbar.scss';
 
-function Navbar() {
+const Navbar: React.FC = () => {
 	return (
 		<div className='Navbar'>
 			<h1>Navbar funciona</h1>
