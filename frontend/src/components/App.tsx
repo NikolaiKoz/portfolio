@@ -5,7 +5,7 @@ import Footer from './Footer/Footer';
 import Header from './Header/Header';
 import Navbar from './Navbar/Navbar';
 
-function App() {
+const App: React.FC = () => {
 	return (
 		<div className='App'>
 			<h1>App funciona</h1>

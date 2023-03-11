@@ -8,7 +8,7 @@ module.exports = {
 			version: 'detect',
 		},
 	},
-	extends: ['plugin:react/recommended', 'standard-with-typescript'],
+	extends: ['plugin:react/recommended', 'standard-with-typescript', 'prettier'],
 	overrides: [],
 	parser: '@typescript-eslint/parser',
 	parserOptions: {
