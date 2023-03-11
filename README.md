@@ -92,6 +92,25 @@ Tengo conocimientos de UX/IX, aun asi no soy diseniador grafico, pero generare u
 
 10. Para los estilos utilizare la arquitectura OOCSS y la metodologia BEM para nombrar las clases.
 
+11. arquitectura de clases
+
+12. Utilizare eslint para marcar errores
+
+### `npm i -D eslint`
+
+12. Utilizare Prettier para formatear mi codigo
+
+### `npm i -D prettier`
+
+13. requiero un paquete para que cuando existan conflictos entre slint y prettier, la configuracion de prettier se imponga
+
+### 'npm i -D eslint-config-prettier'
+
+14. comandos para ejecutar el lit y prettier
+
+### 'npm run lint'
+### 'npm run format'
+
 
 
 
