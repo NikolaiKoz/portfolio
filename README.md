@@ -92,6 +92,20 @@ Tengo conocimientos de UX/IX, aun asi no soy diseniador grafico, pero generare u
 
 10. Para los estilos utilizare la arquitectura OOCSS y la metodologia BEM para nombrar las clases.
 
+11. las clases en css tendran la siguiente arquitectura.
+
+.class{
+    Propiedades de position
+
+    Propiedades de box model
+
+    propiedades de texto
+
+    propiedades visuales
+
+    otros
+}
+
 11. arquitectura de clases
 
 12. Utilizare eslint para marcar errores
@@ -110,6 +124,7 @@ Tengo conocimientos de UX/IX, aun asi no soy diseniador grafico, pero generare u
 
 ### 'npm run lint'
 ### 'npm run format'
+
 
 
 
