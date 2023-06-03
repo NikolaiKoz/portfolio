@@ -1,13 +1,19 @@
 import React from 'react';
-import styles from './Navbar.module.scss';
 import { FcMenu } from 'react-icons/fc';
-import '../../assets/logo/Logo.png';
+import { Container, Img, IconContainer, Icon } from './Navbar.module.scss';
+import Links from './Links/Links';
+import Logo from '../../assets/logo/Logo.png';
 
 function Navbar() {
 	return (
-		<nav>
-			<img src='../../assets/logo/Logo.png' alt='' />
-			<div>HOla esto funciona </div>
+		<nav className={Container}>
+			<figure className={Img}>
+				<img src={Logo} alt='Jose Luis Vallejos logo image' />
+			</figure>
+			<Links />
+			<figure className={IconContainer}>
+				<FcMenu className={Icon} />
+			</figure>
 		</nav>
 	);
 }
