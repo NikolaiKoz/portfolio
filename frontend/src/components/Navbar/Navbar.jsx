@@ -1,8 +1,8 @@
 import React from 'react';
-import { FcMenu } from 'react-icons/fc';
-import { Container, Img, IconContainer, Icon } from './Navbar.module.scss';
-import Links from './Links/Links';
+import { Container, Img } from './Navbar.module.scss';
+// import Links from './Links/Links';
 import Logo from '../../assets/logo/Logo.png';
+import MobileBtn from './MobileBtn/MobileBtn';
 
 function Navbar() {
 	return (
@@ -10,10 +10,8 @@ function Navbar() {
 			<figure className={Img}>
 				<img src={Logo} alt='Jose Luis Vallejos logo image' />
 			</figure>
-			<Links />
-			<figure className={IconContainer}>
-				<FcMenu className={Icon} />
-			</figure>
+			{/* <Links /> */}
+			<MobileBtn />
 		</nav>
 	);
 }
