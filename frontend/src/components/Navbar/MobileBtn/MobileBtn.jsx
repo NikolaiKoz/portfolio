@@ -1,14 +1,16 @@
-import React from 'react';
-import { FcMenu } from 'react-icons/fc';
+import React, { useState } from 'react';
+import { FcMenu, FcAdvance } from 'react-icons/fc';
 import { Container, Icon } from './MobileBtn.module.scss';
 
 function MobileBtn() {
+	const [isMenuOpen, setIsMenuOpen] = useState(false);
+
 	const handleClick = () => {
-		alert('Boton Movil Click');
+		setIsMenuOpen(!isMenuOpen)
 	};
 	return (
 		<figure className={Container} onClick={handleClick}>
-			<FcMenu className={Icon} />
+			{isMenuOpen ? <FcAdvance className={Icon} /> : <FcMenu className={Icon} />}
 		</figure>
 	);
 }
