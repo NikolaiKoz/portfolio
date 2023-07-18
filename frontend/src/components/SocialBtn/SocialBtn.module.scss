@@ -1,0 +1,22 @@
+@import '../../styles/scss/layout/breakpoints';
+
+.Container{
+    background-color: white;
+}
+
+.ContainerLinks{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Icon{
+    width: 5em;
+    @include responsive (desktop){
+        filter: grayscale(1);
+
+        &:hover{
+            filter: grayscale(0);
+        }
+    }
+}
