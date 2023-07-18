@@ -8,13 +8,23 @@
     }
 }
 
+.ContainerProfile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    @include responsive (desktop){
+        width: 50%;
+    }
+}
+
 .Profile{
     aspect-ratio: 1/1;
-    border: 1px solid black;
     max-width: 15em;
     overflow: hidden;
     border-radius: 50%;
     margin: 0 auto;
+    margin-bottom: 1em;
 }
 
 .Title{
@@ -26,25 +36,5 @@
     margin: 0 auto;
     @include responsive (desktop){
         font-size: 2.5rem;
-    }
-}
-
-.Wrapper{
-    display: grid;
-    gap: 1em;
-    max-width: 30em;
-    margin: 0 auto;
-    @include responsive (desktop){
-        width: 50%;
-    }
-}
-
-.ContainerProfile{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    @include responsive (desktop){
-        width: 50%;
     }
 }

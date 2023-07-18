@@ -20,12 +20,11 @@ function About() {
 					/>
 				</figure>
 				<figcaption>
-					<h1 className={Title}>
-						Jose Luis Vallejos full stack MERN Developer
-					</h1>
+					<h1 className={Title}>Jose Luis Vallejos</h1>
+					<h2 className={Title}> Full Stack MERN Developer</h2>
 				</figcaption>
 			</div>
-				<AboutMe />
+			<AboutMe />
 		</div>
 	);
 }
