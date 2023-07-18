@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container } from './Links.module.scss';
+import { Container, Item } from './Links.module.scss';
 
 const Anchor = [
 	{
@@ -33,7 +33,7 @@ function Links() {
 		<ul className={Container}>
 			{Anchor.map(item => (
 				<li key={item.name}>
-					<a href={`#${item.name}`} title={item.title}>
+					<a className={Item} href={`#${item.name}`} title={item.title}>
 						{item.name}
 					</a>
 				</li>
