@@ -1,25 +1,26 @@
 /* Mixins responsive */
 
 @mixin responsive($breakpoint) {
-	@if $breakpoint ==phone {
-		@media screen and (min-width: 16em) {
-			@content;
-		}
-	} @else if $breakpoint ==min-tablet {
-		@media screen and (min-width: 35em) {
-			@content;
-		}
-	} @else if $breakpoint ==tablet {
-		@media screen and (min-width: 55em) {
-			@content;
-		}
-	} @else if $breakpoint ==desktop {
-		@media screen and (min-width: 90em) {
-			@content;
-		}
-	} @else if $breakpoint ==large-desktop {
-		@media screen and (min-width: 120em) {
-			@content;
-		}
-	}
+  @if $breakpoint == tablet {
+    @media screen and (min-width: 576px) {
+      @content;
+    }
+  } @else if $breakpoint == largeTablet {
+    @media screen and (min-width: 768px) {
+      @content;
+    }
+  } @else if $breakpoint == desktop {
+    @media screen and (min-width: 992px) {
+      @content;
+    }
+  } @else if $breakpoint == largeDesktop {
+    @media screen and (min-width: 1200px) {
+      @content;
+    }
+  }
+   @else if $breakpoint == extraLargeDesktop {
+    @media screen and (min-width: 1400px) {
+      @content;
+    }
+  }
 }
