@@ -6,11 +6,15 @@ function MobileBtn() {
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
 
 	const handleClick = () => {
-		setIsMenuOpen(!isMenuOpen)
+		setIsMenuOpen(!isMenuOpen);
 	};
 	return (
 		<figure className={Container} onClick={handleClick}>
-			{isMenuOpen ? <FcAdvance className={Icon} /> : <FcMenu className={Icon} />}
+			{isMenuOpen ? (
+				<FcAdvance className={Icon} />
+			) : (
+				<FcMenu className={Icon} />
+			)}
 		</figure>
 	);
 }
