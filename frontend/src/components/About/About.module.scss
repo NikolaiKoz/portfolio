@@ -1,0 +1,36 @@
+@import '../../styles/scss/layout/breakpoints';
+
+.Container{
+    @include responsive (desktop){
+        display: flex;
+        flex-direction: row;
+        background-color: red;
+    }
+}
+
+.Profile{
+    aspect-ratio: 1/1;
+    border: 1px solid black;
+    max-width: 15em;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.Title{
+    font-weight: 800;
+    max-width: 10em;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.Description{
+    text-indent: 2rem;
+}
+
+.Wrapper{
+    display: grid;
+    gap: 1em;
+    max-width: 30em;
+    margin: 0 auto;
+}
