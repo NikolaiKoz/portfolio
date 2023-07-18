@@ -1,0 +1,15 @@
+@import '../../../styles/scss/layout/breakpoints';
+
+.Wrapper{
+    display: grid;
+    gap: 1em;
+    max-width: 30em;
+    margin: 0 auto;
+    @include responsive (desktop){
+        width: 50%;
+    }
+}
+
+.Description{
+    text-indent: 2rem;
+}

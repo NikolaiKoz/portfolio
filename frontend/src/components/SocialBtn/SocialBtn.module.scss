@@ -12,6 +12,7 @@
 
 .Icon{
     width: 5em;
+    transition: all .5s;
     @include responsive (desktop){
         filter: grayscale(1);
 

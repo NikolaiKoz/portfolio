@@ -19,13 +19,14 @@
 
 .Title{
     font-weight: 800;
+    font-size: 2rem;
+    line-height: 1em;
     max-width: 10em;
     text-align: center;
     margin: 0 auto;
-}
-
-.Description{
-    text-indent: 2rem;
+    @include responsive (desktop){
+        font-size: 2.5rem;
+    }
 }
 
 .Wrapper{
@@ -33,4 +34,17 @@
     gap: 1em;
     max-width: 30em;
     margin: 0 auto;
+    @include responsive (desktop){
+        width: 50%;
+    }
+}
+
+.ContainerProfile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    @include responsive (desktop){
+        width: 50%;
+    }
 }
