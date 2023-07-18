@@ -1,4 +1,4 @@
-@import '../../../styles/scss/layout/mixines';
+@import '../../../styles/scss/layout/breakpoints';
 
 .Container {
 	display: flex;
@@ -13,6 +13,7 @@
 
 .Item {
 	font-size: 1.2rem;
+    font-weight: 600;
 	margin: 1em 0;
 	@include responsive(desktop){
         margin: 0
