@@ -9,7 +9,7 @@ function App() {
 	return (
 		<div className='wrapper'>
 			<Navbar />
-			<Sections SectionTitle='Sobre Mi' SectionComponent={<About />} />
+			<Sections SectionTitle='Sobre mi' SectionComponent={<About />} />
 		</div>
 	);
 }

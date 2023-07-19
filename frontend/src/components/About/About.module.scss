@@ -2,7 +2,6 @@
 @import '../../styles/scss/layout/layout';
 
 .Container{
-    @include generalPandig;
     @include responsive (desktop){
         display: flex;
         flex-direction: row;

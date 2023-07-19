@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, ContainerLinks, Icon } from './SocialBtn.module.scss';
+import { ContainerLinks, Icon } from './SocialBtn.module.scss';
 import githubImg from '../../assets/icons/github.png';
 import linkedinImg from '../../assets/icons/linkedin.png';
 
@@ -18,7 +18,7 @@ function SocialBtn() {
 	];
 
 	return (
-		<div className={Container}>
+		<>
 			<ul className={ContainerLinks}>
 				{socialLinks.map(link => (
 					<li key={link.title}>
@@ -40,7 +40,7 @@ function SocialBtn() {
 					</li>
 				))}
 			</ul>
-		</div>
+		</>
 	);
 }
 

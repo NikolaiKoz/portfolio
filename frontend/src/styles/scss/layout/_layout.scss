@@ -1,17 +1,16 @@
 .wrapper {
 	max-width: 120em;
 	margin: 0 auto;
-	@include responsive(phone) {
-	}
-	@include responsive(tablet) {
-	}
-	@include responsive(desktop) {
-		padding: 0 1em;
-	}
-	@include responsive(large-desktop) {
-	}
 }
 
-@mixin generalPandig{
+//Margins
+
+@mixin MarginBottomNavbar{
+	margin-bottom: 2em;
+}
+
+//Paddings
+
+@mixin generalPanddig{
 	padding: 1.5em;
 }

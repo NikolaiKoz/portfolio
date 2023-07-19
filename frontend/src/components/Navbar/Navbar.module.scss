@@ -1,3 +1,4 @@
+@import '../../styles/scss/layout/layout';
 @import '../../styles/scss/layout/breakpoints';
 
 .Container{
@@ -7,6 +8,7 @@
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
     position: relative;
     height: 5em;
+    @include MarginBottomNavbar;
 }
 
 .Img{
