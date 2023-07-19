@@ -3,12 +3,13 @@ import React from 'react';
 import Navbar from './Navbar/Navbar';
 import About from './About/About';
 import '../styles/scss/main.scss';
+import Sections from './Sections/Sections';
 
 function App() {
 	return (
 		<div className='wrapper'>
 			<Navbar />
-			<About />
+			<Sections SectionTitle='Sobre Mi' SectionComponent={<About />} />
 		</div>
 	);
 }

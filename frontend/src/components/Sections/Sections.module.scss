@@ -1,0 +1,10 @@
+@import '../../styles/scss/layout/breakpoints';
+@import '../../styles/scss/layout/layout';
+
+.Title{
+    font-size: 3rem;
+}
+
+.Component{
+    @include generalPandig;
+}
