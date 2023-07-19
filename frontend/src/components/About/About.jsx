@@ -2,8 +2,9 @@ import React from 'react';
 import {
 	Profile,
 	Title,
+	SubTitle,
 	Container,
-    ContainerProfile
+	ContainerProfile,
 } from './About.module.scss';
 import AboutMe from './AboutMe/AboutMe';
 
@@ -21,7 +22,7 @@ function About() {
 				</figure>
 				<figcaption>
 					<h1 className={Title}>Jose Luis Vallejos</h1>
-					<h2 className={Title}> Full Stack MERN Developer</h2>
+					<h2 className={SubTitle}> Full Stack MERN Developer</h2>
 				</figcaption>
 			</div>
 			<AboutMe />
