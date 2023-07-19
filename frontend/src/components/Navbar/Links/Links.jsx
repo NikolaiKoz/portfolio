@@ -3,24 +3,24 @@ import { Container, Item } from './Links.module.scss';
 
 const Anchor = [
 	{
-		name: 'About',
-		title: 'About',
+		name: 'Sobre mí',
+		title: 'Sobre mí',
 	},
 	{
-		name: 'Skills',
-		title: 'Skills',
+		name: 'Habilidades',
+		title: 'Habilidades',
 	},
 	{
-		name: 'Experience',
-		title: 'Experience',
+		name: 'Experiencia',
+		title: 'Experiencia',
 	},
 	{
-		name: 'Contact',
-		title: 'Contact',
+		name: 'Contacto',
+		title: 'Contacto',
 	},
 	{
-		name: 'Social',
-		title: 'Social',
+		name: 'Redes Sociales',
+		title: 'Redes Sociales',
 	},
 	{
 		name: 'CV',
