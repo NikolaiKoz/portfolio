@@ -24,11 +24,11 @@
   }
 }
 
-@mixin animatedBoxShadow {
-  animation: boxShadowAnimation 3s linear infinite;
+@mixin animatedBoxLineShadow {
+  animation: boxShadowLineAnimation 3s linear infinite;
 }
 
-@keyframes boxShadowAnimation {
+@keyframes boxShadowLineAnimation {
   0% {
     box-shadow: 0 0 0 0 $bgColorTransparent-2;
   }
