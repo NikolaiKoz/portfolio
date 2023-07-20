@@ -129,6 +129,12 @@ Tengo conocimientos de UX/IX, aun asi no soy diseniador grafico, pero generare u
 
 ### npm install gh-pages --save-dev
 
+estado del pre deploy
+
+
+https://predeployjlv.netlify.app/
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a258c7b2-7914-49a1-aaf0-571aff103fe7/deploy-status)](https://app.netlify.com/sites/predeployjlv/deploys)
 
 
 
