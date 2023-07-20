@@ -1,5 +1,7 @@
+
+
 .wrapper {
-	max-width: 120em;
+	max-width: 1500px;
 	margin: 0 auto;
 }
 
@@ -29,4 +31,18 @@
 
 @mixin generalPanddig{
 	padding: 1.5em;
+}
+
+@mixin generalPaddingMobile{
+  padding: 1.5em;
+}
+
+@mixin generalPaddingDesktop{
+    padding: 3em;
+}
+
+//Border-Radius
+
+@mixin borderRadius{
+  border-radius: .8em;
 }
