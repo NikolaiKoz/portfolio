@@ -125,9 +125,13 @@ svg {
 // Configuramos la tipografia de toda la web
 
 body {
-	background-color: $bg-color;
-	min-height: 100vh;
-	font-size: 100%;
-	font-family: 'Montserrat', sans-serif;
-	line-height: 1.6em;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-size: 100%;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.6em;
+  overflow: hidden;
+  background: url('../../../assets/videos/Background-Neon.mp4') no-repeat center center fixed;
+  background-size: cover;
 }
