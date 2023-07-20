@@ -9,12 +9,13 @@ import Experience from './Experience/Experience';
 import Contact from './Contact/Contact';
 import SocialMedia from './SocialMedia/SocialMedia';
 import CV from './CV/CV';
-import background from '../assets/videos/BackgroundNeon.mp4';
 import RGBLine from './RGBLine/RGBLine';
+import VideoBackground from './VideoBackground/VideoBackground';
 
 function App() {
 	return (
 		<>
+		<VideoBackground />
 			<div className='wrapper'>
 				<Navbar />
 				<RGBLine />
@@ -31,13 +32,6 @@ function App() {
 				/>
 				<Sections SectionTitle='CV' SectionComponent={<CV />} />
 			</div>
-			<video
-				className='videoBackground'
-				src={background}
-				autoPlay
-				loop
-				muted
-			></video>
 		</>
 	);
 }
