@@ -3,7 +3,8 @@
 
 // Reseteamos margin y paddongs de todas las etiquetas
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Tektur:wght@400;600;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap');
 * {
 	margin: 0;
 	padding: 0;
@@ -55,7 +56,12 @@ h2,
 h3,
 h4,
 h5,
-h6,
+h6{
+	font-family: 'Oooh Baby', cursive;
+}
+
+
+
 p,
 span,
 a,
@@ -125,9 +131,10 @@ svg {
 // Configuramos la tipografia de toda la web
 
 body {
-	background-color: $bg-color;
+	background-color: $bgColor-1;
 	min-height: 100vh;
+	color: $text-color;
 	font-size: 100%;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Tektur', cursive, sans-serif;
 	line-height: 1.6em;
 }
