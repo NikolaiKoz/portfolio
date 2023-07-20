@@ -125,6 +125,11 @@ Tengo conocimientos de UX/IX, aun asi no soy diseniador grafico, pero generare u
 ### 'npm run lint'
 ### 'npm run format'
 
+15. Para un pre-deploy utilizare github pages y netlify
+
+### npm install gh-pages --save-dev
+
+
 
 
 
