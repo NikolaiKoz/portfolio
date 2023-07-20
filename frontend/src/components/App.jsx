@@ -10,12 +10,14 @@ import Contact from './Contact/Contact';
 import SocialMedia from './SocialMedia/SocialMedia';
 import CV from './CV/CV';
 import background from '../assets/videos/BackgroundNeon.mp4';
+import RGBLine from './RGBLine/RGBLine';
 
 function App() {
 	return (
 		<>
 			<div className='wrapper'>
 				<Navbar />
+				<RGBLine />
 				<Sections SectionTitle='Sobre mí' SectionComponent={<About />} />
 				<Sections SectionTitle='Habilidades' SectionComponent={<Skills />} />
 				<Sections

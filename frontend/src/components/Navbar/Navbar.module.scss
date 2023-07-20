@@ -1,9 +1,9 @@
 @import '../../styles/scss/base/colors';
+@import '../../styles/scss/base/variables';
 @import '../../styles/scss/layout/layout';
 @import '../../styles/scss/layout/breakpoints';
 
 .Container{
-    @include MarginBottomNavbar;
     display: flex;
     justify-content: space-between;
     align-items: center;
