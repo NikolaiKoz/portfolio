@@ -27,6 +27,18 @@
 	transform: rotateZ(0deg);
 }
 
-.ContainerSkills{
-    background-color: red;
+.ContainerSkills {
+	background-color: red;
+}
+
+.Img {
+	max-width: 3em;
+	margin: 0 auto;
+}
+
+.ImgDescription {
+	text-align: center;
+	font-size: 2rem;
+	text-shadow: 0 0 10px $color-cuarto, 0 0 20px $color-cuarto,
+		0 0 40px $color-cuarto, 0 0 80px $color-cuarto, 0 0 160px $color-cuarto;
 }
