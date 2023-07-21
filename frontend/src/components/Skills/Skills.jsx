@@ -1,10 +1,8 @@
-import React from 'react'
-// import {} from './Skills.module.scss';
+import React from 'react';
+import { Container } from './Skills.module.scss';
 
 function Skills() {
-  return (
-    <div>Skills</div>
-  )
+	return <div className={Container}>Skills</div>;
 }
 
-export default Skills
+export default Skills;

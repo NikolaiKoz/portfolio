@@ -1,8 +1,8 @@
 import React from 'react';
-// import {} from './CV.module.scss';
+import { Container } from './CV.module.scss';
 
 function CV() {
-	return <div>CV</div>;
+	return <div className={Container}>CV</div>;
 }
 
 export default CV;

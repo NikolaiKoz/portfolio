@@ -1,8 +1,8 @@
 import React from 'react';
-import {} from './Experience.module.scss';
+import { Container } from './Experience.module.scss';
 
 function Experience() {
-	return <div>Experience</div>;
+	return <div className={Container}>Experience</div>;
 }
 
 export default Experience;

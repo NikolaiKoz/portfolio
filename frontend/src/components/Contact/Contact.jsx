@@ -1,10 +1,8 @@
-import React from 'react'
-// import {} from './Contact.module.scss';
+import React from 'react';
+import { Container } from './Contact.module.scss';
 
 function Contact() {
-  return (
-    <div>Contact</div>
-  )
+	return <div className={Container}>Contact</div>;
 }
 
-export default Contact
+export default Contact;

@@ -1,9 +1,9 @@
 import React from 'react'
-// import {} from './SocialMedia.module.scss';
+import {Container} from './SocialMedia.module.scss';
 
 function SocialMedia() {
   return (
-    <div>SocialMedia</div>
+    <div className={Container} >SocialMedia</div>
   )
 }
 
