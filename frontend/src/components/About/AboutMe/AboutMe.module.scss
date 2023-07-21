@@ -9,7 +9,6 @@
     gap: 1em;
     max-width: 30em;
     margin: 0 auto;
-    @include animatedBoxLineShadow;
     @include generalPaddingMobile;
     @include borderRadius;
     @include responsive (desktop){
