@@ -1,15 +1,13 @@
 import React from 'react';
 import { Container } from './Skills.module.scss';
+import SkillSection from './SkillSection/SkillSection';
 
 function Skills() {
-	return <div className={Container}>
-		<figure>
-			<img src="" alt="Ejemplo" />
-		</figure>
-		<figcaption>
-			<span>HTML</span>
-		</figcaption>
-	</div>;
+	return (
+		<div className={Container}>
+			<SkillSection />
+		</div>
+	);
 }
 
 export default Skills;

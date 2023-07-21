@@ -1,0 +1,32 @@
+@import '../../../styles/scss/base/colors';
+@import '../../../styles/scss/base/variables';
+@import '../../../styles/scss/layout/breakpoints';
+@import '../../../styles/scss/layout/layout';
+
+.ContainerTitle {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.Title {
+	font-size: 1.5rem;
+}
+
+.TitleIconContainer {
+	height: 2em;
+	width: 2em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0 2px 4px $color-cuarto;
+	@include borderRadius;
+}
+
+.TitleIcon {
+	transform: rotateZ(0deg);
+}
+
+.ContainerSkills{
+    background-color: red;
+}
