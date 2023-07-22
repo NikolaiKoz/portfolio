@@ -6,7 +6,7 @@
 	height: 0.25em;
 	@include MarginBottomNavbar;
 	@include animatedGradientBackground;
-    position: relative;
+	position: relative;
 
 	&::after {
 		content: '';

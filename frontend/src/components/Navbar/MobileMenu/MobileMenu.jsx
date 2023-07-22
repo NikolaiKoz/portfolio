@@ -16,12 +16,12 @@ import Links from '../Links/Links';
  * @returns {JSX.Element} Componente MobileMenu.
  */
 function MobileMenu({ isMenuOpen }) {
-  return (
-    <div className={`${isMenuOpen ? Container : dNone}`}>
-      <div className={Icon}></div>
-      <Links />
-    </div>
-  );
+	return (
+		<div className={`${isMenuOpen ? Container : dNone}`}>
+			<div className={Icon}></div>
+			<Links />
+		</div>
+	);
 }
 
 /**
@@ -30,7 +30,7 @@ function MobileMenu({ isMenuOpen }) {
  * @prop {boolean} isMenuOpen - Indica si el menú está abierto (true) o cerrado (false).
  */
 MobileMenu.propTypes = {
-  isMenuOpen: PropTypes.bool.isRequired,
+	isMenuOpen: PropTypes.bool.isRequired,
 };
 
 export default MobileMenu;

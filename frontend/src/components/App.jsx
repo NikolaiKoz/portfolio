@@ -15,7 +15,7 @@ import VideoBackground from './VideoBackground/VideoBackground';
 function App() {
 	return (
 		<>
-		<VideoBackground />
+			<VideoBackground />
 			<div className='wrapper'>
 				<Navbar />
 				<RGBLine />

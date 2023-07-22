@@ -1,11 +1,11 @@
 @import '../../styles/scss/layout/breakpoints';
 @import '../../styles/scss/layout/layout';
 
-.Title{
-    font-size: 3rem;
-    font-weight: 600;
+.Title {
+	font-size: 3rem;
+	font-weight: 600;
 }
 
-.Component{
-    @include generalPanddig;
+.Component {
+	@include generalPanddig;
 }

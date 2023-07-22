@@ -1,5 +1,5 @@
 import React from 'react';
-import { Wrapper, Description} from './AboutMe.module.scss';
+import { Wrapper, Description } from './AboutMe.module.scss';
 import SocialBtn from '../../SocialBtn/SocialBtn';
 
 function AboutMe() {

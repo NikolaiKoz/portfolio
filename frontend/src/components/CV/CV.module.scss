@@ -3,11 +3,11 @@
 @import '../../styles/scss/layout/breakpoints';
 @import '../../styles/scss/layout/layout';
 
-.Container{
-    background-color: $bgColorTransparent-2;
-    @include generalPaddingMobile;
-    @include borderRadius;
-    @include responsive (desktop){
-        @include generalPaddingDesktop;
-    }
+.Container {
+	background-color: $bgColorTransparent-2;
+	@include generalPaddingMobile;
+	@include borderRadius;
+	@include responsive(desktop) {
+		@include generalPaddingDesktop;
+	}
 }

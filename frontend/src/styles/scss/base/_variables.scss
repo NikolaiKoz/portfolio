@@ -1,47 +1,53 @@
 @import './colors'; // Importa el archivo de colores primero
 
 @mixin animatedGradientBackground {
-  background: linear-gradient(to right, $bgColorTransparent-2, $color-cuarto, $color-quinto, $color-sexto);
-  background-size: 500% 100%;
-  animation: gradientAnimation 2s linear infinite;
+	background: linear-gradient(
+		to right,
+		$bgColorTransparent-2,
+		$color-cuarto,
+		$color-quinto,
+		$color-sexto
+	);
+	background-size: 500% 100%;
+	animation: gradientAnimation 2s linear infinite;
 }
 
 @keyframes gradientAnimation {
-  0% {
-    background-position: 0% 50%;
-  }
-  25% {
-    background-position: 50% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  75% {
-    background-position: 50% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
+	0% {
+		background-position: 0% 50%;
+	}
+	25% {
+		background-position: 50% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	75% {
+		background-position: 50% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 @mixin animatedBoxLineShadow {
-  animation: boxShadowLineAnimation 2s linear infinite;
+	animation: boxShadowLineAnimation 2s linear infinite;
 }
 
 @keyframes boxShadowLineAnimation {
-  0% {
-    box-shadow: 0 0 0 0 $bgColorTransparent-2;
-  }
-  25% {
-    box-shadow: 0 0 5px 2px $color-cuarto;
-  }
-  50% {
-    box-shadow: 0 0 10px 4px $color-quinto;
-  }
-  75% {
-    box-shadow: 0 0 15px 6px $color-sexto;
-  }
-  100% {
-    box-shadow: 0 0 0 0 $bgColorTransparent-2; // Cambiamos la sombra a 0 al llegar al 100%
-  }
+	0% {
+		box-shadow: 0 0 0 0 $bgColorTransparent-2;
+	}
+	25% {
+		box-shadow: 0 0 5px 2px $color-cuarto;
+	}
+	50% {
+		box-shadow: 0 0 10px 4px $color-quinto;
+	}
+	75% {
+		box-shadow: 0 0 15px 6px $color-sexto;
+	}
+	100% {
+		box-shadow: 0 0 0 0 $bgColorTransparent-2; // Cambiamos la sombra a 0 al llegar al 100%
+	}
 }

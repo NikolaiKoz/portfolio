@@ -3,23 +3,23 @@
 @import '../../styles/scss/layout/layout';
 @import '../../styles/scss/layout/breakpoints';
 
-.Container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-    height: 5em;
-    background-color: $bgColorTransparent-2;
+.Container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+	height: 5em;
+	background-color: $bgColorTransparent-2;
 }
 
-.Img{
-    width: 10em;
+.Img {
+	width: 10em;
 }
 
-.LinksDesktop{
-    display: none;
-    @include responsive(desktop){
-        display: flex;
-        width: 100%;
-    }
+.LinksDesktop {
+	display: none;
+	@include responsive(desktop) {
+		display: flex;
+		width: 100%;
+	}
 }

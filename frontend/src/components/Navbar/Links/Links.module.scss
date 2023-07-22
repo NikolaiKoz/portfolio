@@ -13,16 +13,15 @@
 
 .Item {
 	font-size: 1.2rem;
-    font-weight: 600;
+	font-weight: 600;
 	margin: 1em 0;
-	@include responsive(desktop){
-        margin: 0
-    };
-    &::before{
-        content: '';
-        width: 100%;
-        height: 5px;
-        background-color: red;
-    }
-
+	@include responsive(desktop) {
+		margin: 0;
+	}
+	&::before {
+		content: '';
+		width: 100%;
+		height: 5px;
+		background-color: red;
+	}
 }

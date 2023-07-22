@@ -1,16 +1,16 @@
 @import '../../../styles/scss/layout/breakpoints';
 
-.Container{
-    width: 2em;
-    @include responsive(desktop){
-        display: none;
-    }
+.Container {
+	width: 2em;
+	@include responsive(desktop) {
+		display: none;
+	}
 }
 
-.Icon{
-    width: 2em;
-    height: 2em;
-    border: 1px solid ;
-    border-radius: .2em;
-    cursor: pointer;
+.Icon {
+	width: 2em;
+	height: 2em;
+	border: 1px solid;
+	border-radius: 0.2em;
+	cursor: pointer;
 }

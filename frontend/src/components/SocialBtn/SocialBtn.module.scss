@@ -1,21 +1,19 @@
 @import '../../styles/scss/layout/breakpoints';
 
-
-
-.ContainerLinks{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.ContainerLinks {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 }
 
-.Icon{
-    width: 5em;
-    transition: all .5s;
-    @include responsive (desktop){
-        filter: grayscale(1);
+.Icon {
+	width: 5em;
+	transition: all 0.5s;
+	@include responsive(desktop) {
+		filter: grayscale(1);
 
-        &:hover{
-            filter: grayscale(0);
-        }
-    }
+		&:hover {
+			filter: grayscale(0);
+		}
+	}
 }
