@@ -8,6 +8,8 @@ import {
 } from './About.module.scss';
 import AboutMe from './AboutMe/AboutMe';
 
+// TODO: Segui aqui
+
 function About() {
 	return (
 		<div className={Container}>
