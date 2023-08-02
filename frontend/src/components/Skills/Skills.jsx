@@ -4,6 +4,7 @@ import SkillSection from './SkillSection/SkillSection';
 
 // TODO: Seguir aqui agregando las imagenes y creando el disenio.
 
+
 function Skills() {
 	return (
 		<div className={Container}>
