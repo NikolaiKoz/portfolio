@@ -14,12 +14,13 @@
 }
 
 .TitleIconContainer {
-	height: 2em;
-	width: 2em;
+	height: 1.5em;
+	width: 1.5em;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	box-shadow: 0 2px 4px $color-cuarto;
+	cursor: pointer;
 	@include borderRadius;
 }
 
@@ -29,6 +30,7 @@
 
 .ContainerSkills {
 	background-color: red;
+	margin: 1em 0;
 }
 
 .Img {
@@ -38,7 +40,7 @@
 
 .ImgDescription {
 	text-align: center;
-	font-size: 2rem;
+	font-size: 1.2rem;
 	text-shadow: 0 0 10px $color-cuarto, 0 0 20px $color-cuarto,
 		0 0 40px $color-cuarto, 0 0 80px $color-cuarto, 0 0 160px $color-cuarto;
 }
