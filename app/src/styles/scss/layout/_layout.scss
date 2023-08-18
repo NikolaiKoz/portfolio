@@ -1,0 +1,30 @@
+.wrapper {
+	max-width: 1500;
+	margin: 0 auto;
+}
+
+//Margins
+
+@mixin MarginBottomNavbar {
+	margin-bottom: 2em;
+}
+
+//Paddings
+
+@mixin generalPanddig {
+	padding: 1.5em;
+}
+
+@mixin generalPaddingMobile {
+	padding: 1.5em;
+}
+
+@mixin generalPaddingDesktop {
+	padding: 3em;
+}
+
+//Border-Radius
+
+@mixin borderRadius {
+	border-radius: 0.8em;
+}
