@@ -1,29 +1,24 @@
-import { useState, useEffect } from "react"
-import { getAllSkills } from "@/router/api.routes"
+import { useState, useEffect } from 'react';
+import { getAllSkills } from '@/router/api.routes';
 
-export default function SkillBlock () {
+export default function SkillBlock() {
+	/* <-------------------- Obtener las skills de la API --------------------> */
 
-/* <-------------------- Obtener las skills de la API --------------------> */
+	const [skills, setSkills] = useState([]);
 
-const [skills, setSkills] = useState([]);
+	const skillsData = async => {
+		const response = fetch(getAllSkills(), {
+			method: GET,
+		});
 
+		console.log(response);
 
-const skillsData = async => {
+		skillsData();
+	};
 
-const response = fetch(getAllSkills(), {
-    method: GET,
-})
-
-console.log(response)
-
-skillsData()
-
-}
-
-
-    return(
-        <>
-            <h3>Titulo del bloque de skill</h3>
-        </>
-    )
+	return (
+		<>
+			<h3>Titulo del bloque de skill</h3>
+		</>
+	);
 }

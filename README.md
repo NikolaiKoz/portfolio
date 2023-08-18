@@ -143,6 +143,15 @@ https://predeployjlv.netlify.app/
 
 
 
+18/08/2023
+
+axios
+sass
+github Pages
+jsdoc
+sassdoc
+uuid
+prettier
 
 
 

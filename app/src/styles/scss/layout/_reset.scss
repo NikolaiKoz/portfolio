@@ -58,8 +58,11 @@ h4,
 h5,
 h6 {
 	font-family: 'Oooh Baby', cursive;
-	text-shadow: 0 0 10px $color-secundario, 0 0 20px $color-terciario,
-		0 0 40px $color-destacado, 0 0 80px $color-destacado,
+	text-shadow:
+		0 0 10px $color-secundario,
+		0 0 20px $color-terciario,
+		0 0 40px $color-destacado,
+		0 0 80px $color-destacado,
 		0 0 160px $color-destacado;
 }
 
