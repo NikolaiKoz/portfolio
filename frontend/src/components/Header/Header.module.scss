@@ -1,0 +1,13 @@
+@import "../../styles/scss/layout/responsive";
+
+.Mobile{
+    @include responsive(tablet){
+        display: none;
+    }
+}
+.Desktop{
+    display: none;
+    @include responsive(tablet){
+        display: block;
+    }
+}
