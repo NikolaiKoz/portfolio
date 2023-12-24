@@ -1,5 +1,5 @@
 .wrapper {
-	max-width: 120em;
+	max-width: 1240px;
 	margin: 0 auto;
 	@include responsive(phone) {
 	}
@@ -8,26 +8,5 @@
 	@include responsive(desktop) {
 	}
 	@include responsive(large-desktop) {
-	}
-}
-
-.container {
-	padding: 0 0.9em;
-
-	@include responsive(min-tablet) {
-		padding: 0 2.2em;
-		max-width: 1450px;
-		margin: 0 auto;
-	}
-}
-
-
-.containerPost {
-	max-width: 100em;
-	margin: 0 auto;
-	@include responsive(tablet) {
-		padding: 0 2.2em;
-		max-width: 1450px;
-		margin: 0 auto;
 	}
 }

@@ -1,5 +1,13 @@
+import Banner from "./Banner/Banner";
+import NavbarPage from "./Navbar/NavbarPAge";
+import Presentation from "./Presentation/Presentation";
+
 export default function App() {
   return (
-    <div>App</div>
-  )
+    <div className="wrapper">
+      <NavbarPage />
+      <Banner />
+      <Presentation />
+    </div>
+  );
 }
